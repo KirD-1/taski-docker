@@ -1,5 +1,5 @@
-from pathlib import Path
 import os
+from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -8,11 +8,7 @@ SECRET_KEY = 'django-insecure-j_89af+30&&4qm*8z9_(^zz8p4-ho8z_m6ylm0s$h!-p@on1_^
 
 DEBUG = True
 
-# ALLOWED_HOSTS = []
-# ALLOWED_HOSTS = ['localhost', '123.123.123.123', 'yandexskill.hopto.org']
-# ALLOWED_HOSTS = ['localhost', '89.169.177.209', 'yandexskill.hopto.org']
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', '89.169.177.209', 'yandexskill.hopto.org']
-
 
 # Application definition
 
@@ -63,19 +59,6 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': '/data/db.sqlite3',
-#     }
-# }
 
 DATABASES = {
     'default': {
